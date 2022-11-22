@@ -1,0 +1,268 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1571229257080599010",
+      "lastPropertyId": "2:3742594129947613834",
+      "name": "Equipes",
+      "properties": [
+        {
+          "id": "1:343572093289988198",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3742594129947613834",
+          "name": "descricaoEquipe",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2402174908766000985",
+      "lastPropertyId": "4:6598583493665341444",
+      "name": "Funcionario",
+      "properties": [
+        {
+          "id": "1:2397318025731229632",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1789570523087893825",
+          "name": "descricaoFuncionario",
+          "type": 9
+        },
+        {
+          "id": "3:8318764913009521633",
+          "name": "idEquipe",
+          "type": 6
+        },
+        {
+          "id": "4:6598583493665341444",
+          "name": "descricaoEquipe",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4446043665694819746",
+      "lastPropertyId": "29:3676513366621086982",
+      "name": "Remarcacao",
+      "properties": [
+        {
+          "id": "1:5578983989352611000",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1996199573287966372",
+          "name": "tipoVeiculo",
+          "type": 9
+        },
+        {
+          "id": "3:9005987164651530290",
+          "name": "proprietario",
+          "type": 9
+        },
+        {
+          "id": "4:9060446803445880864",
+          "name": "marcaModelo",
+          "type": 9
+        },
+        {
+          "id": "5:3328411799266388173",
+          "name": "placa",
+          "type": 9
+        },
+        {
+          "id": "6:2973938415520561868",
+          "name": "nChassi",
+          "type": 9
+        },
+        {
+          "id": "7:5309971990783016888",
+          "name": "nMotor",
+          "type": 9
+        },
+        {
+          "id": "8:6122964034682065631",
+          "name": "nVidro",
+          "type": 9
+        },
+        {
+          "id": "9:168112495991047250",
+          "name": "oficioNum",
+          "type": 9
+        },
+        {
+          "id": "10:3857991656013908309",
+          "name": "numProtocolo",
+          "type": 9
+        },
+        {
+          "id": "11:7052834524096197807",
+          "name": "local",
+          "type": 9
+        },
+        {
+          "id": "12:3665104024331601146",
+          "name": "equipe",
+          "type": 9
+        },
+        {
+          "id": "13:7062128772769181055",
+          "name": "seguradora",
+          "type": 9
+        },
+        {
+          "id": "14:6234247945007998201",
+          "name": "foto1",
+          "type": 9
+        },
+        {
+          "id": "15:5718199863361888895",
+          "name": "foto2",
+          "type": 9
+        },
+        {
+          "id": "16:947710856429985936",
+          "name": "foto3",
+          "type": 9
+        },
+        {
+          "id": "17:8100561940667623731",
+          "name": "foto4",
+          "type": 9
+        },
+        {
+          "id": "18:5580072901530698128",
+          "name": "descricaoFoto1",
+          "type": 9
+        },
+        {
+          "id": "19:1794397071665462882",
+          "name": "descricaoFoto2",
+          "type": 9
+        },
+        {
+          "id": "20:7730227711598792859",
+          "name": "descricaoFoto3",
+          "type": 9
+        },
+        {
+          "id": "21:2287270570853878967",
+          "name": "descricaoFoto4",
+          "type": 9
+        },
+        {
+          "id": "22:7480258777440898820",
+          "name": "dtGravacao",
+          "type": 10
+        },
+        {
+          "id": "23:617600913158156279",
+          "name": "idUsuario",
+          "type": 9
+        },
+        {
+          "id": "24:2910466634926090800",
+          "name": "usuarioCriou",
+          "type": 9
+        },
+        {
+          "id": "25:6847029920787448637",
+          "name": "usuarioModificou",
+          "type": 9
+        },
+        {
+          "id": "26:4640434697411586522",
+          "name": "usuarioVerificou",
+          "type": 9
+        },
+        {
+          "id": "27:7107531865929958762",
+          "name": "dtVerificacao",
+          "type": 10
+        },
+        {
+          "id": "28:6427158214755749521",
+          "name": "tipoGravacao",
+          "type": 9
+        },
+        {
+          "id": "29:3676513366621086982",
+          "name": "aprovado",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:1701486782095804788",
+      "lastPropertyId": "2:6680072543209585120",
+      "name": "Seguradoras",
+      "properties": [
+        {
+          "id": "1:3460582942757368687",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6680072543209585120",
+          "name": "descricaoSeguradora",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:5887861995207060694",
+      "lastPropertyId": "4:808139669403446312",
+      "name": "FiltroStatus",
+      "properties": [
+        {
+          "id": "1:9205148119798636264",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8279562771828095551",
+          "name": "AceitaNovo",
+          "type": 1
+        },
+        {
+          "id": "3:5526263391447482216",
+          "name": "AceitaModificado",
+          "type": 1
+        },
+        {
+          "id": "4:808139669403446312",
+          "name": "AceitaFinalizado",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:5887861995207060694",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
